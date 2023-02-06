@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5A5C32299106D100B776B5 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5A5C31299106D100B776B5 /* NewViewController.swift */; };
 		9F84628A298B776300F6BAB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846289298B776300F6BAB5 /* AppDelegate.swift */; };
 		9F84628E298B776300F6BAB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F84628D298B776300F6BAB5 /* ViewController.swift */; };
 		9F846291298B776300F6BAB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F84628F298B776300F6BAB5 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F5A5C31299106D100B776B5 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		9F846286298B776300F6BAB5 /* UIKit SwiftUI Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit SwiftUI Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F846289298B776300F6BAB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F84628D298B776300F6BAB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				9F846289298B776300F6BAB5 /* AppDelegate.swift */,
 				9F84628D298B776300F6BAB5 /* ViewController.swift */,
 				9F84629D298B787E00F6BAB5 /* SwiftUIView.swift */,
+				9F5A5C31299106D100B776B5 /* NewViewController.swift */,
 				9F84628F298B776300F6BAB5 /* Main.storyboard */,
 				9F846292298B776600F6BAB5 /* Assets.xcassets */,
 				9F846294298B776600F6BAB5 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				9F84628E298B776300F6BAB5 /* ViewController.swift in Sources */,
 				9F84628A298B776300F6BAB5 /* AppDelegate.swift in Sources */,
 				9F84629E298B787E00F6BAB5 /* SwiftUIView.swift in Sources */,
+				9F5A5C32299106D100B776B5 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

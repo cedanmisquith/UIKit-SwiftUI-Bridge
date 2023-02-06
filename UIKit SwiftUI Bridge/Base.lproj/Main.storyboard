@@ -59,6 +59,35 @@
             </objects>
             <point key="canvasLocation" x="962.59541984732823" y="3.5211267605633805"/>
         </scene>
+        <!--New View Controller-->
+        <scene sceneID="Ohi-PF-AbZ">
+            <objects>
+                <viewController storyboardIdentifier="NewViewController" id="A2Z-H1-RTe" customClass="NewViewController" customModule="UIKit_SwiftUI_Bridge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vCN-ag-zzo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FH-dQ-YGN">
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="temp:" destination="A2Z-H1-RTe" eventType="touchUpInside" id="SOv-y0-lqw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jPd-Vd-zVT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4FH-dQ-YGN" firstAttribute="centerX" secondItem="vCN-ag-zzo" secondAttribute="centerX" id="mRM-lk-SjI"/>
+                            <constraint firstItem="4FH-dQ-YGN" firstAttribute="centerY" secondItem="vCN-ag-zzo" secondAttribute="centerY" id="zar-hs-RUT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qSA-ED-JqU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092" y="4"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="iHj-S4-Iqy">
             <objects>

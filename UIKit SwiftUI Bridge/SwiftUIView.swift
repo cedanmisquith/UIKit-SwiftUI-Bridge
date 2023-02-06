@@ -29,6 +29,15 @@ struct SwiftUIView: View {
                 Text("Back to UIKit Screen with data")
                     .frame(width: UIScreen.main.bounds.width, height: 10, alignment: .center)
             }
+            Button(action: {
+                let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                guard let vc = storyBoard.instantiateViewController(withIdentifier: "NewViewController") as? NewViewController else {
+                    return
+                }
+                self.navigationController?.pushViewController(vc, animated: true)
+            }) {
+                Text("Go to VC")
+            }
         }
     }
 }
